@@ -1,0 +1,38 @@
+.card{
+    /* border: 0.5px solid black; */
+    height: 281px;
+    width: 400px;
+    margin: 10px;
+    margin-left: 30px;
+    justify-content: space-between;
+    justify-content: space-around;
+    display: inline-block;
+    
+    box-shadow: #4a7f80 5px 4px 5px 5px;
+}
+p{
+    text-align: center;
+}
+.card1{
+    /* border: 1px solid black; */
+    height: 281px;
+    width: 400px;
+    margin: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    box-shadow: #4a7f80 5px 4px 5px 5px;
+}
+h1{
+    text-align:center;
+}
+h5{
+    text-align:center;color: #14dac8
+}
+
+.image{
+       
+    height: 150px;
+/* text-align: center; */
+    margin-left: 123px;
+    margin-top: 20px;
+     }

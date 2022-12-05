@@ -1,0 +1,16 @@
+link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css', integrity='sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N', crossorigin='anonymous')
+include header.pug
+#carouselExampleControls.carousel.slide(data-bs-ride='carousel')
+.carousel-inner
+    .carousel-item.active
+        img.d-block.w-100(src='https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-56866.jpg&fm=jpg', alt='...' style='height:600px ; width:auto')
+    .carousel-item
+        img.d-block.w-100(src='https://wallpapercave.com/wp/wp2634222.jpg', alt='...' style='height:600px ; width:auto')
+    .carousel-item
+        img.d-block.w-100(src='https://images.template.net/wp-content/uploads/2016/04/27054559/Sunrise-Nature-Wallpaper-for-Download.jpg', alt='...' style='height:600px ; width:auto')
+    button.carousel-control-prev(type='button', data-bs-target='#carouselExampleControls', data-bs-slide='prev')
+        span.carousel-control-prev-icon(aria-hidden='true')
+        span.visually-hidden Previous
+    button.carousel-control-next(type='button', data-bs-target='#carouselExampleControls', data-bs-slide='next')
+        span.carousel-control-next-icon(aria-hidden='true')
+        span.visually-hidden Next
